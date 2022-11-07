@@ -1,0 +1,1 @@
+docker run -itd --rm health-checker:20221013

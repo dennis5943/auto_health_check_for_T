@@ -1,0 +1,1 @@
+docker build -t health-checker:20221013 ./

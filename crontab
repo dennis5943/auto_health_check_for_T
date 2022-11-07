@@ -1,0 +1,4 @@
+* * * * * root echo "Hello world" >> /var/log/cron.log 2>&1
+30 7 * * 1,2,3,4,5 root echo "gogo" >> /var/log/cron.log 2>&1
+30 7 * * 1,2,3,4,5 root python3 /app/run_app.py
+# Don't remove the empty line at the end of this file. It is required to run the cron job
